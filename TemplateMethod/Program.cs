@@ -13,7 +13,7 @@ namespace TemplateMethod
             Console.WriteLine(new AliquotaPercentual15().CalculaImpostoDeRenda(salario));
             Console.WriteLine(new AliquotaPercentual22().CalculaImpostoDeRenda(salario));
             Console.WriteLine(new AliquotaPercentual27().CalculaImpostoDeRenda(salario));
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
